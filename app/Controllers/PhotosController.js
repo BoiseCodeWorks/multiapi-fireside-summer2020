@@ -14,4 +14,7 @@ export default class PhotosController {
     store.subscribe("photo", _draw);
   }
 
+  getPhoto() {
+    PhotosService.getPhoto()
+  }
 }
